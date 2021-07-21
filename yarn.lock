@@ -18,6 +18,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"esbuild-plugin-pnp-watch-bug@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "esbuild-plugin-pnp-watch-bug@workspace:."
+  dependencies:
+    "@yarnpkg/esbuild-plugin-pnp": ^1.0.0-rc.12
+    esbuild: ^0.12.15
+  languageName: unknown
+  linkType: soft
+
 "esbuild@npm:^0.12.15":
   version: 0.12.15
   resolution: "esbuild@npm:0.12.15"
@@ -26,15 +35,6 @@ __metadata:
   checksum: 22ec14d41c8a9256934b476575f3dbb47437c3c9953c4e4e00560454449075822c0824fa982a51cb545c255c561a781908da9711081d57b4f3bca15341569906
   languageName: node
   linkType: hard
-
-"foo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "foo@workspace:."
-  dependencies:
-    "@yarnpkg/esbuild-plugin-pnp": ^1.0.0-rc.12
-    esbuild: ^0.12.15
-  languageName: unknown
-  linkType: soft
 
 "tslib@npm:^1.13.0":
   version: 1.14.1

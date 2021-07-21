@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "foo",
+        "name": "esbuild-plugin-pnp-watch-bug",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["foo", ["workspace:."]]
+      ["esbuild-plugin-pnp-watch-bug", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:6847a7e26c6f65e9a07a05ac6fd51a817f487ca65a3f4eb6074a6e87e9e5a9b8d604589ccca3616c3ade1ca80766e0dab48ed3499f9be6e35afa8028ddc2857f#npm:1.0.0-rc.12"],
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a797c68ab1946825abd92925e77ee85ba029330cd72b6fbd53fa79ed67b928954ad27d1e901792477a9c899d64bd8b3808cb30b7379af148fc14ca328aba5b4#npm:1.0.0-rc.12"],
             ["esbuild", "npm:0.12.15"]
           ],
           "linkType": "SOFT",
@@ -51,10 +51,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:6847a7e26c6f65e9a07a05ac6fd51a817f487ca65a3f4eb6074a6e87e9e5a9b8d604589ccca3616c3ade1ca80766e0dab48ed3499f9be6e35afa8028ddc2857f#npm:1.0.0-rc.12", {
-          "packageLocation": "./.yarn/$$virtual/@yarnpkg-esbuild-plugin-pnp-virtual-a00ccc4111/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-1.0.0-rc.12-4891ad668b-5d371a6936.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
+        ["virtual:2a797c68ab1946825abd92925e77ee85ba029330cd72b6fbd53fa79ed67b928954ad27d1e901792477a9c899d64bd8b3808cb30b7379af148fc14ca328aba5b4#npm:1.0.0-rc.12", {
+          "packageLocation": "./.yarn/$$virtual/@yarnpkg-esbuild-plugin-pnp-virtual-fb636a1569/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-1.0.0-rc.12-4891ad668b-5d371a6936.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",
           "packageDependencies": [
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:6847a7e26c6f65e9a07a05ac6fd51a817f487ca65a3f4eb6074a6e87e9e5a9b8d604589ccca3616c3ade1ca80766e0dab48ed3499f9be6e35afa8028ddc2857f#npm:1.0.0-rc.12"],
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a797c68ab1946825abd92925e77ee85ba029330cd72b6fbd53fa79ed67b928954ad27d1e901792477a9c899d64bd8b3808cb30b7379af148fc14ca328aba5b4#npm:1.0.0-rc.12"],
             ["@types/esbuild", null],
             ["esbuild", "npm:0.12.15"],
             ["tslib", "npm:1.14.1"]
@@ -75,12 +75,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["foo", [
+      ["esbuild-plugin-pnp-watch-bug", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["foo", "workspace:."],
-            ["@yarnpkg/esbuild-plugin-pnp", "virtual:6847a7e26c6f65e9a07a05ac6fd51a817f487ca65a3f4eb6074a6e87e9e5a9b8d604589ccca3616c3ade1ca80766e0dab48ed3499f9be6e35afa8028ddc2857f#npm:1.0.0-rc.12"],
+            ["esbuild-plugin-pnp-watch-bug", "workspace:."],
+            ["@yarnpkg/esbuild-plugin-pnp", "virtual:2a797c68ab1946825abd92925e77ee85ba029330cd72b6fbd53fa79ed67b928954ad27d1e901792477a9c899d64bd8b3808cb30b7379af148fc14ca328aba5b4#npm:1.0.0-rc.12"],
             ["esbuild", "npm:0.12.15"]
           ],
           "linkType": "SOFT",

@@ -1,5 +1,6 @@
 {
-  "name": "foo",
+  "name": "esbuild-plugin-pnp-watch-bug",
+  "private": true,
   "scripts": {
     "without-plugin": "node start",
     "with-plugin": "WITH_PLUGIN=true node start"

@@ -1,0 +1,11 @@
+{
+  "name": "foo",
+  "scripts": {
+    "without-plugin": "node start",
+    "with-plugin": "WITH_PLUGIN=true node start"
+  },
+  "devDependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^1.0.0-rc.12",
+    "esbuild": "^0.12.15"
+  }
+}

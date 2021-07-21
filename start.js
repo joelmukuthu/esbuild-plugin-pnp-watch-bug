@@ -1,6 +1,9 @@
 const { build } = require("esbuild");
 const { pnpPlugin } = require("@yarnpkg/esbuild-plugin-pnp");
 const plugins = process.env.WITH_PLUGIN ? [pnpPlugin()] : undefined;
+const outfile = process.env.WITH_PLUGIN
+  ? "./out/with-plugin.js"
+  : "./out/without-plugin.js";
 
 console.log("building...");
 
@@ -11,7 +14,7 @@ build({
   sourcemap: true,
   platform: "node",
   target: ["node14.15.1"],
-  outfile: "./out/main.js",
+  outfile,
   watch: {
     onRebuild(error, result) {
       if (error) console.error("watch build failed:", error);

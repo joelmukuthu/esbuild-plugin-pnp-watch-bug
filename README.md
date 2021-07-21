@@ -30,7 +30,9 @@ To reproduce:
    watch build succeeded: { errors: [], warnings: [], stop: [Function: stop] }
    ```
 
-   While the output in terminal A (`with-plugin`) stays the same.
+   While the output in terminal A (`with-plugin`) stays the same -- esbuild
+   is configured to print out "watch build succeeded" every time changes are
+   detected in `./main.ts`.
 
-The esbuild configs in `./start.js` are set up to print out "watch build
-succeeded" every time changes are deted in `./main.ts`.
+   Additionally, compare `./out/with-plugin.js` and `./out/without-plugin.js`;
+   the latter will contain the updates from `./main.ts` while the former won't.
